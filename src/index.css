@@ -1,0 +1,39 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color:rgb(28, 28, 28);
+}
+.App{
+  margin: 40px auto;
+  max-width: 400px;
+  padding: 10px;
+}
+.navbar{
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li{
+  display: inline-block;
+  padding: 20px;
+}
+.booklist li{
+  list-style-type: none;
+  padding: 30px;
+}
+.btn{
+  background-color: rgb(234, 231, 237);
+  border: none;
+  padding: 0 5px;
+  border-radius: 5px;
+  height: 20px;
+
+  
+}
+.btnToggle{
+  margin-top: 20px ;
+  padding: 5px;
+
+}
